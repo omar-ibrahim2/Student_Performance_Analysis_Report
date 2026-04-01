@@ -20,8 +20,11 @@ Which groups show significant differences?
 Dataset
 ---------------------------------------------------------------------------------------------------------------------------
 File: Scores.csv
+
 Observations: 486 students
+
 Features:
+
 gender (male/female)
 parental_education (high school, associate, bachelor, master)
 math_score (0–100)
@@ -38,11 +41,17 @@ Boxplots & visualizations
 Statistical Testing
 
 Shapiro-Wilk Test → Normality check
+
 Mann-Whitney U Test → Gender comparison
+
 Kruskal-Wallis Test → Multiple group comparison
+
 Post-hoc tests (Bonferroni correction)
+
 Effect size calculations (rank-biserial correlation, η²)
-🔗 Correlation Analysis
+
+Correlation Analysis
+
 Pearson correlation between math and language scores
 
 Key Findings
