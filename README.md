@@ -78,8 +78,11 @@ Colap
 Project Structure
  
 ├── Data_Science_Report.ipynb   # Main analysis notebook
+
 ├── Scores.csv                 # Dataset
+
 ├── Application_Report.pdf     # Full report
+
 └── README.md                  # Project documentation
 
 Future Improvements
