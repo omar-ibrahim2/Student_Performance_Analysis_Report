@@ -6,7 +6,7 @@ Project Overview
 This project analyzes student performance using statistical methods to investigate how gender and parental education level influence mathematics and language test scores.
 
 The analysis is based on a dataset of 486 students, and it was developed as part of an application report for the M.Sc. Data Science program at TU Dortmund University.
-
+---------------------------------------------------------------------------------------------------------------------------
 Objectives
 
 The project answers two main research questions:
@@ -16,7 +16,7 @@ Is there a statistically significant difference between male and female students
 Parental Education Effect
 Do students' scores differ across parental education levels?
 Which groups show significant differences?
-
+---------------------------------------------------------------------------------------------------------------------------
 Dataset
 
 File: Scores.csv
@@ -26,7 +26,7 @@ gender (male/female)
 parental_education (high school, associate, bachelor, master)
 math_score (0–100)
 language_score (0–100)
-
+---------------------------------------------------------------------------------------------------------------------------
 Methods Used
 
 Descriptive Analysis
@@ -44,7 +44,7 @@ Post-hoc tests (Bonferroni correction)
 Effect size calculations (rank-biserial correlation, η²)
 🔗 Correlation Analysis
 Pearson correlation between math and language scores
-
+---------------------------------------------------------------------------------------------------------------------------
 Key Findings
 
 Gender Differences
@@ -65,7 +65,7 @@ Correlation
 
 Strong positive correlation between math and language scores
 → Indicates general academic ability factor
-
+---------------------------------------------------------------------------------------------------------------------------
 Technologies Used
 
 Python 3.x
@@ -79,7 +79,7 @@ matplotlib
 seaborn
 
 Colap 
-
+---------------------------------------------------------------------------------------------------------------------------
 Project Structure
  
 ├── Data_Science_Report.ipynb   # Main analysis notebook
@@ -89,14 +89,14 @@ Project Structure
 ├── Application_Report.pdf     # Full report
 
 └── README.md                  # Project documentation
-
+---------------------------------------------------------------------------------------------------------------------------
 Future Improvements
 
 Include more variables (income, school type, etc.)
 Apply regression models
 Use machine learning for prediction
 Analyze interaction effects more deeply
-
+---------------------------------------------------------------------------------------------------------------------------
 Notes
 
 This project is fully reproducible and demonstrates:
